@@ -14,32 +14,16 @@ Q4. Which commands changed only your computer and which changed GitHub?
 
 Commands such as git init, git add, git commit, git status, git diff, git log, git switch and git merge were used to manage the repository on my computer. The git remote add command configured the connection to my GitHub repository locally, while git clone downloaded a copy of the repository to another folder without changing the original GitHub repository. The git push command uploaded my local commits to GitHub, while git pull downloaded and integrated changes from GitHub into my local repository. Therefore, pushing and pulling allowed me to synchronise changes between my computer and the online repository.
 
-Repository
-A storage location that contains project files and their version history, including commits and branches.
+## Git Concepts
 
-Working Tree (Working Directory)
-The directory containing the checked-out project files where a developer makes and edits changes.
-
-Staging Area (Index)
-An area where selected changes are prepared before they are included in the next commit.
-
-Commit
-A recorded snapshot of the staged changes in the repository, identified by a unique hash and accompanied by a commit message.
-
-Branch
-An independent line of development that allows developers to work on changes without directly modifying another branch.
-
-Merge
-The process of combining changes from one branch into another branch.
-
-Remote
-A reference to another repository, usually hosted on a platform such as GitHub, that allows repositories to exchange changes.
-
-Clone
-Creates a local copy of an existing remote repository, including its files and version history.
-
-Push
-Uploads local commits to a remote repository.
-
-Pull
-Fetches changes from a remote repository and integrates them into the current local branch.
+| No. | Concept | Explanation |
+| 1 | Repository | A storage location containing project files and their version history. |
+| 2 | Working Tree | The directory containing files currently being edited or modified. |
+| 3 | Staging Area | An area where changes are prepared before being committed. |
+| 4 | Commit | A saved snapshot of changes in the repository's history. |
+| 5 | Branch | An independent line of development that allows changes to be made without affecting the main branch. |
+| 6 | Merge | The process of combining changes from one branch into another. |
+| 7 | Remote | A repository hosted on a server, such as GitHub, for collaboration and synchronisation. |
+| 8 | Clone | Creating a local copy of an existing remote repository. |
+| 9 | Push | Uploading local commits to a remote repository. |
+| 10 | Pull | Retrieving and integrating changes from a remote repository. |
