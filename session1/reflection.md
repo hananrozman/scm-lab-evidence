@@ -16,7 +16,10 @@ Commands such as git init, git add, git commit, git status, git diff, git log, g
 
 ## Git Concepts
 
+## Git Concepts
+
 | No. | Concept | Explanation |
+|---|---|---|
 | 1 | Repository | A storage location containing project files and their version history. |
 | 2 | Working Tree | The directory containing files currently being edited or modified. |
 | 3 | Staging Area | An area where changes are prepared before being committed. |
