@@ -1,1 +1,1 @@
-Changes made by teammate
+This file was created by a teammate.
